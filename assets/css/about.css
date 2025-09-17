@@ -1,0 +1,17 @@
+.history-years h4 {
+    background: linear-gradient(255.22deg, #46187b .54%, #001e94 54.41%);
+    border: 3px solid var(--text-white-color);
+    border-radius: 25rem;
+    font-size: 20px;
+    height: 80px;
+    width: 80px;
+}
+.history-years h4 img {
+    height: 50px!important;
+    width: 50px;
+}
+.explore-card .card-content {
+    height: 280px;
+    margin-top: -100px;
+    padding-top: 150px;
+}

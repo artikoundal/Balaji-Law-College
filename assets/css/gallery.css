@@ -1,0 +1,30 @@
+.gallery-item {
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+.category-title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+#gallery-tab-photos .nav-link.active {
+    background: transparent;
+    border-radius: 0;
+    border-bottom: 2px solid #3A3285 !important;
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    color: #3A3285;
+    padding: 10px;
+}
+#gallery-tab-photos .nav-link {
+    background: transparent;
+    border: 0 !important;
+    padding: 10px;
+}

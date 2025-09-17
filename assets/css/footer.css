@@ -1,0 +1,67 @@
+.footer-con .upper-sec{
+padding: 45px 55px;
+    border-radius: 20px;
+    margin-top: -123px;
+}
+.upper-sec {
+  background: var(--accent-color) url('../images/footer-img/footer-sideimage.png') no-repeat center center;
+  background-size: cover;
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+
+.footer-con .upper-sec input {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+        height: 56px;
+    padding: 16px 28px 19px;
+    margin-right: 10px;
+    width: 350px;
+    background-color: var(--text-white-color);
+    border-radius: 50px;
+}
+.footer-con .upper-sec button:hover {
+    background: var(--bg-light-color);
+       color: var(--dark-color);
+}
+.footer-con .upper-sec button {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+        height: 56px;
+    padding: 18px 33.5px 19.5px;
+    border-radius: 50px;
+    color: var(--text-white-color);
+    background: var(--primary-color);
+    transition: all 0.3s ease-in-out;
+}
+.upper-sec .section-subtitle-leftline::before {
+  background-color: var(--text-white-color); 
+}
+
+.footer-menus li a {
+    line-height: 33px;
+}
+.footer-bottom {
+    border-top: 1px solid #ffffff1f;
+}
+.pulseplay-text {
+    color: var(--accent-color);
+}
+.pulseplay-text:hover{
+    color: var(--bg-light-color);
+}
+.footer-menus li:hover a,
+.footer-menus li:hover i {
+    color: var(--accent-color) !important;
+}
+
+.footer-menus i {
+    font-size: 11px;
+}
+.Social-links a:hover{
+    background: var(--accent-color);
+    border-color: var(--accent-color);
+}

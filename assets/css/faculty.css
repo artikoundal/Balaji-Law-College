@@ -1,0 +1,6 @@
+.faculty-detail-link {
+    color: var(--text-base-gray-color);
+}
+.faculty-detail-link:hover {
+  color: var(--primary-color);
+}

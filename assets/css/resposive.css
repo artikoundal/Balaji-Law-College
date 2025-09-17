@@ -1,0 +1,290 @@
+/* --------------- 1400px - 1200px --------------- */
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .testimonial-section .owl-theme .owl-nav {
+    bottom: 10%;
+  }
+}
+
+/* --------------- 1199px - 992px --------------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .testimonial-section .owl-theme .owl-nav {
+    bottom: 2% !important;
+    right: 21% !important;
+  }
+}
+
+/* --------------- 1200px - 991px menu fix --------------- */
+@media (min-width: 991px) and (max-width: 1200px) {
+  .main-menu a.nav-link {
+    color: var(--text-white-color);
+    margin: 0 10px;
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .testimonial-section .owl-theme .owl-nav {
+    position: relative;
+    bottom: auto;
+    right: auto;
+    transform: none;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  button.owl-prev i,
+  button.owl-next i {
+    padding: 14px !important;
+    height: 40px;
+    width: 40px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  .testimonial-section {
+    background: var(--text-white-color) !important;
+  }
+
+  .testimonial-section .owl-theme .owl-nav {
+    margin-top: 58px !important;
+    position: absolute !important;
+    right: 24% !important;
+    bottom: 2% !important;
+  }
+
+  .testimonial-slide {
+    flex-direction: column;
+  }
+
+  .testimonial-image,
+  .testimonial-content {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .upper-sec {
+    flex-direction: column;
+    align-items: start !important;
+    text-align: left;
+    gap: 1.5rem;
+  }
+
+  .upper-sec .heading {
+    width: 100%;
+  }
+
+  .upper-sec form {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .upper-sec input {
+    width: 100% !important;
+    margin-right: 0;
+  }
+
+  .upper-sec button {
+    width: 100%;
+  }
+
+  .home-banner {
+    margin-top: 0px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .img {
+    grid-column: auto !important;
+    grid-row: auto !important;
+  }
+
+  .img:nth-child(3) img,
+  .img:nth-child(6) img {
+    height: auto;
+  }
+
+  .founder-message {
+    padding: 40px 20px;
+  }
+
+  .image-wrapper img {
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .founder-message {
+    height: 600px;
+    padding: 0;
+  }
+
+  .founder-img {
+    height: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .testimonial-section .owl-theme .owl-nav {
+    position: relative !important;
+    bottom: auto !important;
+    right: 47% !important;
+    margin-bottom: 29px;
+    margin-left: 16px;
+    transform: none;
+    justify-content: left;
+    margin-top: 0 !important;
+  }
+
+  button.owl-prev i,
+  button.owl-next i {
+    padding: 12px !important;
+    height: 36px;
+    width: 36px;
+    font-size: 14px;
+  }
+  ul#gallery-tab-photos {
+    overflow-x: auto;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    padding-left: 0px;
+    justify-content: start !important;
+}
+}
+
+@media (min-width: 490px) and (max-width: 768px) {
+  .header-text h2 {
+    font-size: 21px;
+    font-weight: 800;
+  }
+
+  .header-logos img {
+    height: 53px;
+  }
+ul#gallery-tab-photos {
+    overflow-x: auto;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    padding-left: 0px;
+    justify-content: start !important;
+}
+  img.logo.top-logo {
+    height: 24px;
+  }
+
+  .home-banner .position-absolute[style*="bottom: 90px"] {
+    bottom: 70px !important;
+  }
+
+  .home-banner {
+    margin-top: 0px;
+  }
+
+  .top-space {
+    padding-top: 50px;
+  }
+
+  .bottom-space {
+    padding-bottom: 139px !important;
+  }
+
+  .logo-track img {
+    height: 97px;
+    margin: 0 20px;
+    width: 200px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .img img {
+    height: auto;
+  }
+
+  .sec-padding {
+    padding: 50px 10px;
+  }
+}
+@media (min-width: 300px) and (max-width: 991px) {
+.banner-sec {
+    margin-top: 0 !important;
+}
+ ul#pills-tab {
+    overflow-x: auto;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    padding-left: 0px;
+    justify-content: start !important;
+}
+ul#gallery-tab-photos {
+    overflow-x: auto;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    padding-left: 0px;
+    justify-content: start !important;
+}
+}
+@media (min-width: 300px) and (max-width: 490px) {
+  .header-logos img {
+    height: 31px;
+  }
+
+  .header-text h2 {
+    font-size: 12px;
+  }
+ul#gallery-tab-photos {
+    overflow-x: auto;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    padding-left: 0px;
+    justify-content: start !important;
+}
+  img.logo.top-logo {
+    height: 16px;
+  }
+
+  .home-banner {
+    margin-top: 0px;
+  }
+
+  .top-space {
+    padding-top: 50px;
+  }
+
+  .bottom-space {
+    padding-bottom: 139px !important;
+  }
+
+  .logo-track img {
+    height: 97px;
+    margin: 0 20px;
+    width: 200px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .img img {
+    height: auto;
+  }
+
+  .sec-padding {
+    padding: 50px 10px;
+  }
+  #v-pills-tab-mobile {
+            scrollbar-width: thin;
+        }
+        #v-pills-tab-mobile::-webkit-scrollbar {
+            height: 6px;
+        }
+        #v-pills-tab-mobile::-webkit-scrollbar-thumb {
+            background: #ccc;
+            border-radius: 3px;
+        }
+}

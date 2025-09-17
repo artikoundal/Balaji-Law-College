@@ -1,0 +1,13 @@
+.accordion-button::after {
+      display: none; /* Remove default arrow */
+    }
+    .custom-icon {
+      margin-left: auto;
+      transition: transform 0.3s ease;
+    }
+    .accordion-button.collapsed .custom-icon {
+      transform: rotate(0deg);
+    }
+    .accordion-button:not(.collapsed) .custom-icon {
+      transform: rotate(45deg);
+    }
