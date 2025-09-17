@@ -287,4 +287,10 @@ ul#gallery-tab-photos {
             background: #ccc;
             border-radius: 3px;
         }
+        .program-deatil-sec .nav-pills .nav-link {
+    font-size: 10px;
+    text-align: center;
+    color: #202226;
+
+}
 }
